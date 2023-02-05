@@ -4,16 +4,8 @@
   import Bocks from "./lib/Bocks.svelte";
   import Visiors from './lib/Visiors.svelte';
   
-  $: visible =true
-
-
-  $: cklicys =()=>{
-    console.log('lol Lol LOL');
-    visible = !visible
-  }
   let box = Bocks
 </script>
-
 
 <div class="contenier">
   <section>
